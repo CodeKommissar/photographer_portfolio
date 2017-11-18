@@ -63,6 +63,10 @@ body {
   font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.no-display {
+    visibility: hidden;
+}
+
 /*
   ========================================
   Grid
@@ -196,6 +200,9 @@ em {
 
 .lead {
   text-align: center;
+}
+.lead h1 {
+    font-family: 'Bad Script', cursive;
 }
 .lead p {
   font-size: 21px;
@@ -364,6 +371,12 @@ p a {
 }
 .teaser p {
   color: white;
+}
+.teaser .photo-section {
+    color: yellow;
+    font-family: "Bad Script", sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
 }
 
 /*
